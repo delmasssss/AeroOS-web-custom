@@ -13,8 +13,8 @@ AeroOS is a front-end web development project that recreates an interactive and 
 
 ```structure```
 
-aero-os/
-├── assets/          # Images, icons, and graphical resources
-├── css/             # Stylesheets (style.css for layout and appearance)
-├── js/              # Application logic (app.js for user experience interactions)
-└── index.html       # Main entry point of the web application
+aero-os/ <br>
+├── assets/          # Images, icons, and graphical resources <br>
+├── css/             # Stylesheets (style.css for layout and appearance )<br>
+├── js/              # Application logic (app.js for user experience interactions) <br>
+└── index.html       # Main entry point of the web application <br>
