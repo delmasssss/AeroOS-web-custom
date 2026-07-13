@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AERO OS</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700;900&family=Rajdhani:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+<!-- ============================== BOOT ============================== -->
+<div id="boot">
+  <div class="boot-ring"><span class="boot-logo">A/OS</span></div>
+  <h1>AERO&nbsp;OS</h1>
+  <p>System Initializing<span id="boot-dots">...</span></p>
+</div>
+
+<!-- ============================== DESKTOP ============================== -->
+<div id="desktop">
+  <div id="icons"></div>
+  <div id="windows-layer"></div>
+</div>
+
+<!-- ============================== START MENU ============================== -->
+<div id="start-menu">
+  <div class="sm-header">
+    <div class="sm-title">AERO OS</div>
+    <div class="sm-sub">Vanilla Web Runtime · Build 1.0</div>
+  </div>
+  <div class="sm-list" id="sm-list"></div>
+</div>
+
+<!-- ============================== TASKBAR ============================== -->
+<div id="taskbar">
+  <div id="start-btn">
+    <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12l9-9 9 9"/><path d="M5 10v10h14V10"/></svg>
+    <span>START</span>
+  </div>
+  <div class="tb-divider"></div>
+  <div id="tb-apps"></div>
+  <div id="tray">
+    <div class="stat">CPU<div class="bar"><i id="tray-cpu"></i></div></div>
+    <div class="stat">RAM<div class="bar"><i id="tray-ram"></i></div></div>
+    <div id="clock"><div class="time" id="clock-time">--:--:--</div><div class="date" id="clock-date">---</div></div>
+  </div>
+</div>
+
+<script src="./js/app.js"></script>
+</body>
+</html>
