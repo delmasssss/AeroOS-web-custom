@@ -74,12 +74,12 @@ A window with a custom themed scrollbar containing **3 detailed logs** documenti
 No installation, no dependencies to download.
 
 ```bash
-git clone https://github.com/your-username/aero-os.git
-cd aero-os
+git clone https://github.com/delmasssss/AeroOS-web-custom.git
+cd AeroOS-web-custom
 ```
 
 **Option 1 — open directly**
-Just double-click `aero-os.html` to open it in your browser.
+Just double-click `index.html` to open it in your browser.
 
 **Option 2 — run a small local server** (recommended, avoids potential browser security restrictions on local files)
 ```bash
@@ -87,7 +87,7 @@ npx serve .
 # or
 python3 -m http.server 8080
 ```
-Then go to `http://localhost:8080/aero-os.html`.
+Then go to `http://localhost:8080/index.html`.
 
 ---
 
@@ -95,7 +95,7 @@ Then go to `http://localhost:8080/aero-os.html`.
 
 ```
 aero-os/
-├── aero-os.html     # the entire project: markup, CSS and JS in a single file
+├── index.html     # the entire project: markup, CSS and JS in a single file
 ├── README.md        # this file
 └── .gitignore
 ```
